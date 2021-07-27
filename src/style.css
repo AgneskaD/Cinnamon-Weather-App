@@ -1,7 +1,7 @@
 body {
-    font-family: arial, sans-serif;
-  }
-  
+    font-family: "Roboto Mono", monospace;
+    background-image: url("img/mount.jpg");
+}
   h1 {
     color: #878787;
     font-size: 24px;
@@ -36,9 +36,14 @@ body {
   }
   
   .weather-app {
-    padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    background: #f9f7fe;
+    border: 3px solid #dadde1;
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    border-color: #09690d;
+    margin-top: 100px;
   }
   
   .overview {
@@ -71,4 +76,25 @@ body {
   
   .weather-temperature .active:hover {
     text-decoration: none;
+  }
+
+  .weather-forecast {
+      margin-top: 20px;
+      text-align: center;
+      color: black;
+  }
+
+  .weather-forecast-date {
+      font-size: 16px;
+      opacity: 0.5;
+  }
+
+
+  .weather-forecast-temperature-min {
+    opacity: 0.5;
+}
+  }
+
+  .weather-forecast-temperatures {
+      font-size: 13px;
   }
