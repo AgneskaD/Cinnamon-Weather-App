@@ -37,12 +37,12 @@ body {
   
   .weather-app {
     background: #f9f7fe;
-    border: 3px solid #dadde1;
+    border: 2px solid #dadde1;
     padding: 50px;
     margin: 20px auto;
     border-radius: 10px;
     max-width: 800px;
-    border-color: #09690d;
+    border-color: #b643cd;
     margin-top: 100px;
   }
   
