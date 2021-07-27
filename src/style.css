@@ -1,9 +1,11 @@
 body {
     font-family: "Roboto Mono", monospace;
-    
+    background-color: rgb(171, 194, 238);
 }
+
+
   h1 {
-    color: #878787;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
@@ -19,8 +21,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-  
-    color: rgb(135, 135, 135);
+    color: #ffffff;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -36,13 +37,13 @@ body {
   }
   
   .weather-app {
-    background: #f9f7fe;
-    border: 2px solid #dadde1;
+    background: #0f0452;
+    border: 3px solid #dadde1;
     padding: 50px;
     margin: 20px auto;
     border-radius: 10px;
     max-width: 800px;
-    border-color: #b643cd;
+    border-color: rgb(0, 23, 128);
     margin-top: 100px;
   }
   
@@ -57,7 +58,7 @@ body {
   }
   
   .weather-temperature strong {
-    color: rgb(33, 33, 33);
+    color: #ffffff;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
@@ -70,7 +71,7 @@ body {
   }
   
   .weather-temperature .active {
-    color: rgb(33, 33, 33);
+    color: #ffffff;
     cursor: default;
   }
   
@@ -81,12 +82,12 @@ body {
   .weather-forecast {
       margin-top: 20px;
       text-align: center;
-      color: black;
+      color: rgb(255, 255, 255);
   }
 
   .weather-forecast-date {
       font-size: 16px;
-      opacity: 0.5;
+    
   }
 
 
@@ -96,4 +97,10 @@ body {
 
   .weather-forecast-temperatures {
       font-size: 13px;
+  }
+  .units {
+      color: white;
+  }
+  .footer {
+      color:black;
   }
